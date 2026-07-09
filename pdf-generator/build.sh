@@ -16,10 +16,12 @@ mkdir -p "$OUTDIR" _html
 
 declare -A SLUG=(
   [template]=template-style-reference
+  [rehab-options]=rehab-options
 )
 
 declare -A BUILDER=(
   [template]=pages/template.py
+  [rehab-options]=pages/rehab_options.py
 )
 
 build_one () {
