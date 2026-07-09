@@ -18,6 +18,12 @@ pdf-generator/
 pdf/reference/
 ├── desktop-style-reference.pdf  # רפרנס חזותי לגרסת A4 / דסקטופ
 └── mobile-style-reference.pdf   # רפרנס חזותי לגרסת מובייל ארוכה
+
+content-and-spec/
+├── 01-structure-and-navigation.txt  # מבנה, ניווט ומטרה למסמך החדש
+├── 02_content.txt.txt               # תוכן מלא לפי עמודים
+├── README.md                        # סיכום תפקיד התיקייה
+└── WORK_PLAN.md                     # תוכנית עבודה ליישום ה-PDF הלחיץ
 ```
 
 תיקיות וקבצים של התוכן הישן — קובצי Markdown ישנים, רוב קובצי ה־PDF המוכנים, וקוד האתר המקורי — הוסרו כדי להשאיר כאן רק את מה שנחוץ ליצירת המדריכים החדשים. נשארו שני קובצי PDF בלבד כרפרנס חזותי: דוגמת דסקטופ ודוגמת מובייל.
@@ -57,6 +63,10 @@ npm install
 pdf/desktop/template-style-reference.pdf
 pdf/mobile/template-style-reference.pdf
 ```
+
+## מקור התוכן החדש
+
+חומר המקור למסמך הבא נמצא בתיקיית `content-and-spec/`, שהחליפה את השם `pdf-source`. התיקייה מפרידה בין מפרט המבנה והניווט לבין תוכן הטקסט המלא, כדי שנוכל לבנות PDF לחיץ אחד עם היררכיית עמודים פנימית. תוכנית היישום המפורטת נמצאת ב־`content-and-spec/WORK_PLAN.md`.
 
 ## הוספת מדריך חדש בהמשך
 
